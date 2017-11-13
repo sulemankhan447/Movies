@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Movies</string>
+    <string-array name="movie_name">
+        <item>Shaadi Main Zaroor Aana</item>
+        <item>Jab Harry Met Sejal</item>
+        <item>Bariley Ki Barfi</item>
+        <item>Golmaal</item>
+        <item>Snowden</item>
+    </string-array>
+    <string-array name="movie_genre">
+        <item>Romance</item>
+        <item>Adventure</item>
+        <item>Entertainment</item>
+        <item>Comedy</item>
+        <item>Documentary</item>
+    </string-array>
+</resources>

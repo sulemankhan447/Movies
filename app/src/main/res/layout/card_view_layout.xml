@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/card_view">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/shaadi"
+                android:id="@+id/movie_image"/>
+
+            <TextView
+                android:id="@+id/movie_name"
+                android:layout_toRightOf="@id/movie_image"
+                android:layout_width="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"
+                android:text="Shaadi Main Zaroor Aana" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_toRightOf="@id/movie_image"
+                android:layout_marginTop="50dp"
+                android:layout_below="@id/movie_name"
+                android:text="Genre:Romance"
+                android:textSize="20sp"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/movie_genre"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
